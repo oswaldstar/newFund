@@ -109,3 +109,8 @@
         background-color: whitesmoke;
     }
 }
+@media(max-width: 768px){
+    #id,#password,#confirm{
+        width:100%;
+    }
+}
