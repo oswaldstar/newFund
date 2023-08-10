@@ -105,12 +105,12 @@
     .Login{
 
         margin-top: 30%;
-        width:100%;
-        background-color: whitesmoke;
+        width: 350px;
+      
     }
 }
 @media(max-width: 768px){
     #id,#password,#confirm{
-        width:100%;
+        width: 350px;
     }
 }
