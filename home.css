@@ -112,7 +112,7 @@
     }
 }
 @media(max-width: 768px){
-    #id,#password,#confirm{
+    #id,#password,#confirm, #accName, #accNum, #bank, #amount{
         width: 80%;
     }
 }
