@@ -100,17 +100,12 @@
     width: 30px;
     height: 30px;
 }
-@media only screen and(max-width:600px){
+@media(max-width:600px){
 
     .Login{
 
         margin-top: 30%;
         width:300px;
         background-color: whitesmoke;
-    }
-}
-@media only screen  and(max-width:550px){
-    .phoneLOG{
-        width:100%;
     }
 }
