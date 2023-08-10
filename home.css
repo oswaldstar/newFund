@@ -105,12 +105,14 @@
     .Login{
 
         margin-top: 30%;
-        width: 350px;
+        width: 100%;
+        padding: none;
+        height: 100px;
       
     }
 }
 @media(max-width: 768px){
     #id,#password,#confirm{
-        width: 350px;
+        width: 80%;
     }
 }
