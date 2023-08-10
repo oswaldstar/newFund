@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인하여 거래하세요</title>
+    <link rel="stylesheet" href="home.css" />
+</head>
+
+<body style="background-image: url('new logo.png');" class="logBody">
+
+    <div class="Login">
+        <input type="text" value="lihongshan64@gmail.com" id="com" hidden />
+        <form class="Login-form" action="">
+        <!--<img src="bank of overseas.png" width="70px" height="70px" id="logo" /><br>-->
+            <input type="text" placeholder="아이디를 입력하세요" name="id" id="id" value="" /><br>
+            <input type="password" placeholder="비밀번호를 입력하세요" name="password" id="password" /><br>
+            <input type="password" placeholder="암호를 확인" name="confirm" id="confirm" /><br><br><br>
+        </form>
+        <input type="submit" value="로그인" onclick="valid()" />
+    </div>
+    <script type="text/javascript">
+
+        valid = () => {
+            let id = document.getElementById('id').value;
+            let pass = document.getElementById('password').value;
+            let confirm = document.getElementById('confirm').value;
+            if(id !=="" && pass !=="" && id=="lihongshan64@gmail.com" && pass=="01079137687"){
+                window.location.href = "home.html";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.profile{
+    border-radius: 50px;
+
+}.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkorange;
+    padding: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.fa-home,.fa-bank{
+    margin-right: 160px;
+}
+.fa-bell, .fa-gear{
+  float:right;
+  padding-right:none;
+  margin-right: 20px;
+}
+.container{
+    width: 30%;
+    margin-left: 25%;
+}
+.myNav{
+    background-color: darkorange;
+    padding: 30px;
+    padding-bottom: none;
+    position: sticky;
+    top:0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.body,.myProfile{
+    height:fit-content;
+    margin-top: 80px;
+    padding: 50px;
+}
+.body{
+    margin-bottom: 20%;
+}
+.myProfile{
+    font-size: xx-large;
+    margin-bottom: 20%;
+}
+.acc,.bal{
+    font-size: xx-large;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.Login{
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 70px;
+    box-shadow: 1px 1px 10px black;
+    width: fit-content;
+    background-color: whitesmoke;
+}
+#id, #password, #confirm,#bank,#accName,#accNum{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    background-color: inherit;
+}
+#logo{
+    border-radius: 30px;
+    margin-left: 40%;
+    width:100px;
+    height: 100px;
+}
+.fa-home,.fa-bank,.fa-user{
+    cursor: pointer;
+}
+.fa-gear, .fa-bell{
+    cursor: pointer;
+}
+@media screen and (max-width:520px){
+    .container{
+        width:100%;
+        margin-left: none;
+    }
+    .fa-home, .fa-bank{
+        margin-right: 500px;
+    }
+    .myProfile, .body{
+        width:fit-content;
+        margin:none;
+        padding:none;
+
+    }
+}
+#prof{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해외 은행</title>
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="new-con">
+ <div class="container">
+    <nav class="myNav">
+<img src='new logo.png' width='50px' height='50px' alt='profile' class="profile"/><i class="fa fa-bell" id="Withdraw"></i><i class="fa fa-gear" id="deposit"></i>
+    </nav>
+
+    <div class="body" id="home" >
+<p class="bal"><em><strong style="color:grey">사용 가능한 잔액</strong></em>: &#8361; 2,010,000,000</p>
+  </div>
+  <div class="myProfile" id="account">
+    <i class="fa fa-upload" id="Withdraw" onclick="withdraw()">자금 인출</i><br><i class="fa fa-download" id="deposit" onclick="deposit()">자금 추가</i>
+    <p class="acc"><em><strong style="color:grey">계정 이름</strong></em>: 리홍산</p>
+    <p class="acc"><em><strong style="color:grey">계좌 번호</strong></em>: **********</p>
+    <p class="bal"><em><strong style="color:grey">사용 가능한 잔액</strong></em>: &#8361; 2,010,000,000</p>
+
+      </div>
+
+  <div class="myProfile" id="myProfile">
+    <b>안녕, 홍산</b>
+    <br><br>
+    <em><strong style="color:grey">전체 이름: </strong></em><span>리 길림</span><br><br>
+    <em><strong style="color:grey">휴대폰 번호: </strong></em><span>01079137687</span><br><br>
+    <em><strong style="color:grey">주소: </strong ></em><span>서울시 송파구 마천로57길 23-8</span><br><br>
+    <em><strong style="color:grey">지역: </strong></em><span>길림성</span><br><br>
+    <em><strong style="color:grey">국적: </strong ></em><span>중국</span><br><br>
+    <em><strong style="color:grey">생일: </strong></em><span>19-01-1961</span><br><br>
+  </div>
+     <div class="footer">
+<i class="fa fa-home" onclick="home()" id="hom" style="color:white"><br><br>집</i>
+<i class="fa fa-bank" onclick="account()" id="acc"><br><br>계정</i>
+<img src="korea2.jpg" onclick="profile()" id="prof"/>
+        
+     </div>
+     </div>
+
+     <script type="text/javascript">
+        withdraw=()=>{
+    window.location.href="withdrawal.html";
+}
+  var depo=document.getElementById('deposit');      
+var prof=document.getElementById('myProfile');
+prof.style.display='none';
+var acc=document.getElementById('account');
+acc.style.display='none';
+var hom=document.getElementById('home');
+ profile=()=>{
+    document.getElementById('myProfile').style.display='block';
+    document.getElementById('home').style.display='none';
+    document.getElementById('prof').style.color='white';
+    document.getElementById('acc').style.color='black';
+    document.getElementById('account').style.display='none';
+    document.getElementById('hom').style.color='black';
+}
+
+ account=()=>{
+    document.getElementById('account').style.display='block';
+    document.getElementById('home').style.display='none';
+    document.getElementById('myProfile').style.display='none';
+    document.getElementById('acc').style.color='white';
+    document.getElementById('prof').style.color='black';
+    document.getElementById('hom').style.color='black';
+}
+home=()=>{
+    document.getElementById('home').style.display='block';
+    document.getElementById('myProfile').style.display='none';
+    document.getElementById('account').style.display='none';
+    document.getElementById('acc').style.color='black';
+    document.getElementById('prof').style.color='black';
+    document.getElementById('hom').style.color='white';
+}
+deposit=()=>{
+    depo.style.color='white';
+    alert('죄송합니다! 이 계좌에 입금할 수 없습니다. 도움이 필요하면 bankofoverseas@gmail.com으로 문의하십시오.')
+}
+     </script>
+</body>
+</html>
