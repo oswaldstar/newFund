@@ -102,7 +102,15 @@
 }
 @media(max-width:550px){
 
-    .phoneLOG{
-        width:500px;
+    .Login{
+        display: block;
+        justify-self: center;
+        justify-items: center;
+        justify-self: center;
+        margin-top: 30%;
+        padding: 70px;
+        box-shadow: 1px 1px 10px black;
+        width: 300px;
+        background-color: whitesmoke;
     }
 }
