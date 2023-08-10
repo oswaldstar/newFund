@@ -115,7 +115,7 @@
     }
 }
 @media only screen and(max-width:550px){
-    .phoneLOG{
-        width: 100%;
+    .logBody{
+        width: 400px;
     }
 }
