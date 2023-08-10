@@ -60,7 +60,7 @@
     width: fit-content;
     background-color: whitesmoke;
 }
-#id, #password, #confirm,#bank,#accName,#accNum{
+#id, #password, #confirm,#bank,#accName,#accNum, #amount{
     width: 500px;
     height: 50px;
     border: none;
