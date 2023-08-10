@@ -110,7 +110,12 @@
         margin-top: 30%;
         padding: 70px;
         box-shadow: 1px 1px 10px black;
-        width: 300px;
+        width:fit-content;
         background-color: whitesmoke;
+    }
+}
+@media only screen and(max-width:550px){
+    .phoneLOG{
+        width: 100%;
     }
 }
