@@ -100,12 +100,12 @@
     width: 30px;
     height: 30px;
 }
-@media(max-width:600px){
+@media(max-width: 768px){
 
     .Login{
 
         margin-top: 30%;
-        width:300px;
+        width:100%;
         background-color: whitesmoke;
     }
 }
