@@ -119,6 +119,8 @@
 .fa-download,.fa-upload{
     border:2px solid black;
     margin-top: 20px;
+    background-color: orange;
+    color: white;
 }
 @media(max-width: 768px){
     .footer{
